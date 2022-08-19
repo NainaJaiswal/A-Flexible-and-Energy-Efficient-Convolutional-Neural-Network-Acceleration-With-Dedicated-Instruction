@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/full_sim_isim_beh.exe" -prj "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/full_sim_beh.prj" "work.full_sim" 

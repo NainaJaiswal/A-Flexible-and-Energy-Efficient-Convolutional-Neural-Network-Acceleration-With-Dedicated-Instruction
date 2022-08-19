@@ -1,0 +1,242 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Elysia-AKILA/EPRO/Sourcecode/maincode/full_sim_isim_beh.exe -prj D:/Elysia-AKILA/EPRO/Sourcecode/maincode/full_sim_beh.prj work.full_sim 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../types.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../signed_reg.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_cell.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../delay_reg.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../x7segb8.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../vga_bsprite2a.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../vga_640x480.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_array.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_unit.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../IOState.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../inputManager.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../fully_connected.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../clkdiv.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" into library work
+Parsing VHDL file "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../full_sim.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 192: <digitsrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 193: <digitsrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 194: <digitsrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 195: <digitsrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 197: <digitsdualrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 198: <digitsdualrom> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105: <dsp_rescaling> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:746 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../delay_reg.vhd" Line 58: Range is empty (null range)
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86: <pool_shifter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 207: <fully_connected_fifo> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 211: <fc_weight_rom> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 192. Instance digitsrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 193. Instance digitsrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 194. Instance digitsrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 195. Instance digitsrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 197. Instance digitsdualrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 198. Instance digitsdualrom is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_row.vhd" Line 105. Instance dsp_rescaling is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../pooling_row.vhd" Line 86. Instance pool_shifter is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 207. Instance fully_connected_fifo is unbound
+WARNING:Simulator:648 - "D:/Elysia-AKILA/EPRO/Sourcecode/maincode/../systolic_topfile.vhd" Line 211. Instance fc_weight_rom is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package types
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity IOState [iostate_default]
+Compiling architecture behavioral of entity inputManager [inputmanager_default]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(8,0)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,0)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(83)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(104)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(38)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(26)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(4)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-88)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-110)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-127)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-108)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-22614,45930,(83...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(115)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(88)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-92)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-34)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(109)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-65)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-35)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(41)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(127)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-1953,19517,(115...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(19)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(69)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(79)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-69)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-4)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(10)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-95)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,8920,16497,(19,6...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-29)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(37)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-99)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(35)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(65)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-30)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(59)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(33)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-5721,70983,(-12...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(68)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(111)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(96)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(42)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-57)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(71)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(1)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-86)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,1029,21671,(-127...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-16)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(61)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-10)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(57)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(60)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-112)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(25)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-4363,50430,(-16...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(32)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(90)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(23)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-83)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(70)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(73)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(8)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(27)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,20850,14097,(32,...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(17)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(6)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(102)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-115)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-63)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-3422,31750,(17,...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(13)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(76)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(18)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(34)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(15)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-96)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-10759,74862,(13...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-22)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-24)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-40)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-44)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(62)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(53)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-90)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,6682,23211,(-22,...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-84)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(55)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-42)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(66)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-2305,56295,(35,...]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(50)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(45)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(-97)\]
+Compiling architecture behavioral of entity systolic_cell [\systolic_cell(67)\]
+Compiling architecture behavioral of entity systolic_row [\systolic_row(9,-7267,63894,(-24...]
+Compiling architecture behavioral of entity systolic_array [\systolic_array(12,9,(-22614,-19...]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(11)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(11)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(10)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(10)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(9)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(9)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(8)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(8)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(7)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(7)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(6)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(6)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(5)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(5)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(4)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(4)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(3)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(3)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(2)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(2)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(1)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(1)\]
+Compiling architecture behavioral of entity delay_reg [\delay_reg(0)\]
+Compiling architecture behavioral of entity pooling_row [\pooling_row(0)\]
+Compiling architecture behavioral of entity pooling_unit [pooling_unit_default]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1531955)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1195546)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-665806)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-884319)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1639927)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-717025)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1235184)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1324942)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1195119)\]
+Compiling architecture signed_reg of entity signed_reg [\signed_reg(32,-1719265)\]
+Compiling architecture behavioral of entity fully_connected [\fully_connected((-1531955,-1195...]
+Compiling architecture behavioral of entity x7segb8 [x7segb8_default]
+Compiling architecture vga_640x480 of entity vga_640x480 [vga_640x480_default]
+Compiling architecture vga_bsprite2a of entity vga_bsprite2a [vga_bsprite2a_default]
+Compiling architecture behavioral of entity clkdiv [clkdiv_default]
+Compiling architecture behavioral of entity systolic_topfile [systolic_topfile_default]
+Compiling architecture behavior of entity full_sim
+Time Resolution for simulation is 1ps.
+Waiting for 46 sub-compilation(s) to finish...
+Compiled 287 VHDL Units
+Built simulation executable D:/Elysia-AKILA/EPRO/Sourcecode/maincode/full_sim_isim_beh.exe
+Fuse Memory Usage: 41340 KB
+Fuse CPU Usage: 19624 ms

@@ -1,0 +1,3 @@
+vhdl work "../types.vhd"
+vhdl work "../inputManager.vhd"
+vhdl work "../input_sim.vhdl"
